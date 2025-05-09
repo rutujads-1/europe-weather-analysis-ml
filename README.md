@@ -2,7 +2,7 @@
 
 ## Description
 
-This project explores weather trends across Europe from 2000 to 2009 through detailed exploratory data analysis (EDA), focusing on both monthly and yearly patterns. To represent Europe’s climatic diversity, five cities — Roma, Oslo, Heathrow, Budapest, and Basel — were selected for comparative analysis across key weather parameters. In the final phase, machine learning models were developed to predict daily mean temperature for Heathrow, using a time-aware validation strategy to respect the temporal nature of the data.
+This project explores weather trends across Europe from 2000 to 2009 through detailed exploratory data analysis (EDA), focusing on both monthly and yearly patterns. To represent Europe’s climatic diversity, five cities — Roma, Oslo, Heathrow, Budapest, and Basel — were selected for comparative analysis across key weather parameters. In the final phase, machine learning models - including Polynomial Regression, Random Forest, and Gradient Boosting - were leveraged to predict daily mean temperature for Heathrow, using a time-aware validation strategy to respect the temporal nature of the data.
 
 ## Objectives
 
@@ -20,9 +20,16 @@ This project explores weather trends across Europe from 2000 to 2009 through det
 - **Validation**: TimeSeriesSplit Cross-Validation
 
 ## Project Structure
-├── notebooks/ # Jupyter notebooks for EDA, visualization, and modeling
-├── README.md # Project overview and documentation
-└── .gitignore # Files to ignore in version control
+```
+├── .git/             # Git folder 
+
+├── notebooks/        # Folder for Jupyter notebooks
+
+├── .gitattributes     
+
+└── README.md         # Main documentation file
+
+```
 
 ## Dataset citation
 
